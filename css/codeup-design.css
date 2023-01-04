@@ -1,0 +1,36 @@
+
+/* font styling */
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Merienda', cursive;*/
+
+nav {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+.big-circle {
+    display: flex;
+    justify-content: center;
+}
+
+.big-red {
+    background: #E6563B;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    border: solid 10px;
+}
