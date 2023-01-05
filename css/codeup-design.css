@@ -3,6 +3,10 @@
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
 /*font-family: 'Merienda', cursive;*/
+body {
+    background-color: #E6E6E6;
+}
+
 
 nav {
     font-family: 'Abel', sans-serif;
@@ -16,7 +20,7 @@ h3 {
     font-family: 'Anton', sans-serif;
 }
 
-.big-circle {
+.big-circles {
     display: flex;
     justify-content: center;
 }
@@ -34,3 +38,60 @@ h3 {
     font-family: 'Anton', sans-serif;
     border: solid 10px;
 }
+
+.big-orange {
+    background: #EB9D3a;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    border: solid 10px;
+}
+
+.big-green {
+    background: #7CB06C;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    border: solid 10px;
+}
+
+.big-blue {
+    background: #00ABA9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    border: solid 10px;
+}
+
+.circle-row {
+    display: flex;
+    justify-content: end;
+    margin-right: 12px;
+}
+
+.selected-work {
+    font-family: 'Abel', sans-serif;
+}
+
+.the-last {
+    font-family: 'Abel', sans-serif;
+}
+
