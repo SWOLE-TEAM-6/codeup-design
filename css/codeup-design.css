@@ -94,8 +94,7 @@ h5 {
 
 .circle-row {
     display: flex;
-    justify-content: end;
-    margin-right: 12px;
+    justify-content: center;
 }
 
 .selected-work {
